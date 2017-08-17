@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD54F"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    tools:context="com.example.besant.besant.SignUpActivity">
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="20dp"
+         android:orientation="vertical"
+         android:id="@+id/first2">
+         <TextView
+             android:id="@+id/Signup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="SIGNUP"
+             android:textSize="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:gravity="center"
+             android:textStyle="italic"/>
+
+
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:text="First Name1"
+
+                 />
+         </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:text="SIGN UP"
+        android:layout_marginLeft="135dp" />
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_below="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="90dp"
+        android:drawableRight="@drawable/ic_person"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangleborder"
+        android:src="@drawable/usernameicon"
+        android:textColorHint="#263238"
+        android:padding="10dp"
+        android:text="FIRST NAME" />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_below="@+id/FirstName"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:padding="10dp"
+        android:textColorHint="#263238"
+        android:background="@drawable/rectangleborder"
+        android:drawableRight="@drawable/usernameicon"
+        android:text="LAST NAME" />
+
+    <EditText
+        android:id="@+id/EmailId"
+        android:layout_below="@+id/LastName"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#263238"
+        android:padding="10dp"
+        android:text="Email ID"
+        android:background="@drawable/rectangleborder"
+        android:drawableRight="@drawable/email"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_below="@+id/EmailId"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/rectangleborder"
+        android:textColorHint="#263238"
+        android:text="ADDRESS" />
+
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="220dp"
+        android:layout_below="@+id/Address"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="91dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/rectangleborder"
+        android:textColorHint="#263238"
+        android:text="PASSWORD" />
+
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_below="@+id/pswd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="40dp"
+        android:text="Signup" />
+
+</RelativeLayout>
