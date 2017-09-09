@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Besant</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="username">Password</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="new_activity">RecyclerViewDemo</string>
+    <string-array name="items">
+        <item>"chain"</item>
+        <item>"bluffy"</item>
+        <item>"image"</item>
+        <item>"photo"</item>
+    </string-array>
+
+
+</resources>

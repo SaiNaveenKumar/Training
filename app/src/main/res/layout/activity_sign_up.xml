@@ -57,7 +57,7 @@
         android:src="@drawable/usernameicon"
         android:textColorHint="#263238"
         android:padding="10dp"
-        android:text="FIRST NAME" />
+        android:hint="FIRST NAME" />
 
     <EditText
         android:id="@+id/LastName"
@@ -70,7 +70,7 @@
         android:textColorHint="#263238"
         android:background="@drawable/rectangleborder"
         android:drawableRight="@drawable/usernameicon"
-        android:text="LAST NAME" />
+        android:hint="LAST NAME" />
 
     <EditText
         android:id="@+id/EmailId"
@@ -82,10 +82,10 @@
         android:inputType="textPersonName"
         android:textColorHint="#263238"
         android:padding="10dp"
-        android:text="Email ID"
         android:background="@drawable/rectangleborder"
         android:drawableRight="@drawable/email"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:hint="EmailId"/>
 
     <EditText
         android:id="@+id/Address"
@@ -98,7 +98,7 @@
         android:layout_marginLeft="90dp"
         android:background="@drawable/rectangleborder"
         android:textColorHint="#263238"
-        android:text="ADDRESS" />
+        android:hint="ADDRESS" />
 
 
     <EditText
@@ -113,7 +113,7 @@
         android:inputType="textPersonName"
         android:background="@drawable/rectangleborder"
         android:textColorHint="#263238"
-        android:text="PASSWORD" />
+        android:hint="PASSWORD" />
 
 
     <Button
